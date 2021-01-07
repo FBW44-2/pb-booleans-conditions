@@ -39,7 +39,7 @@ middleCharIndex = textLength / 2; // 9.5
 if (isOdd) {
     // It is odd, we need to round down the middle index
     middleCharIndex = Math.floor(middleCharIndex);
-    console.log('Text length is ODD');
+    console.log('Text length is ODD, we need to do some rounding');
 }
 
 // Print the middle character
